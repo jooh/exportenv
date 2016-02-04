@@ -13,7 +13,8 @@ environment with `conda env export > environment.yml`.  To import it to a
 new setup, do `conda env create -f environment.yml`.  First, make sure you
 have the right channels available by checking `conda config --get
 channels`. You may have to do `conda config --add channels jcarlin` to get
-things to build.
+things to build. If you are updating an existing environment you will have
+to remove it first: `conda env remove --name psychopyenv --all`.
 
 # limitations
 Neither solution above has exact version control, For conda this is less of
