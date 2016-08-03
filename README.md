@@ -7,14 +7,14 @@ bundle dump --force` to update the Brewfile and `brew bundle` to update the
 current brew environment with any new content from the Brewfile.
 
 # conda
-List of conda packages for use with the
-[conda](http://conda.pydata.org/docs/) Python distro.  Export your current
-environment with `conda env export > environment.yml`.  To import it to a
-new setup, do `conda env create -f environment.yml`.  First, make sure you
-have the right channels available by checking `conda config --get
-channels`. You may have to do `conda config --add channels jcarlin` to get
-things to build. If you are updating an existing environment you will have
-to remove it first: `conda remove --name psychopyenv --all`.
+List of conda packages for use with the [conda](http://conda.pydata.org/docs/)
+Python distro.  Export your current environment with `conda env export >
+environment.yml`.  To import it to a new setup, do `conda env create -f
+environment.yml`.  First, make sure you have the right channels available by
+checking `conda config --get channels`. You may have to do `conda config --add
+channels jcarlin` (and perhaps also derickl for pygame) to get things to build.
+If you are updating an existing environment you will have to remove it first:
+`conda remove --name psychopyenv --all`.
 
 # limitations
 Neither solution above has exact version control, For conda this is less of
