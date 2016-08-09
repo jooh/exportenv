@@ -122,6 +122,7 @@ dependencies:
   - backports-abc==0.4
   - backports.ssl-match-hostname==3.4.0.2
   - bdist-mpkg==0.5.0
+  - expcontrol (/Users/jc01/python/expcontrol)==0.2.3
   - ipython-genutils==0.1.0
   - jupyter-client==4.1.1
   - jupyter-console==4.0.3
