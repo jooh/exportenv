@@ -1,7 +1,6 @@
 name: psychopyenv
 dependencies:
-- alabaster=0.7.6=py27_0
-- altgraph=0.12=py27_0
+- altgraph
 - anaconda-client=1.2.2=py27_0
 - appnope=0.1.0=py27_0
 - astroid=1.4.4=py27_0
@@ -83,7 +82,7 @@ dependencies:
 - pyserial=2.7=py27_0
 - pysoundcard=0.5.2=py27_0
 - pysoundfile=0.8.1=py27_0
-- pytables=3.2.2=np110py27_0
+- pytables
 - python=2.7.11=0
 - python-dateutil=2.5.0=py27_0
 - python.app=1.2=py27_4
@@ -122,7 +121,6 @@ dependencies:
   - backports-abc==0.4
   - backports.ssl-match-hostname==3.4.0.2
   - bdist-mpkg==0.5.0
-  - expcontrol (/Users/jc01/python/expcontrol)==0.2.3
   - ipython-genutils==0.1.0
   - jupyter-client==4.1.1
   - jupyter-console==4.0.3
@@ -130,4 +128,3 @@ dependencies:
   - sphinx-rtd-theme==0.1.7
   - tables==3.2.2
   - wxpython-common==3.0.0.0
-
